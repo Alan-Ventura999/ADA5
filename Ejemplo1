@@ -1,0 +1,8 @@
+conjunto = {10, 20, 30, 40, 50}
+
+numero_a_buscar = 30
+
+if numero_a_buscar in conjunto:
+    print(f"El número {numero_a_buscar} está en el conjunto.")
+else:
+    print(f"El número {numero_a_buscar} no está en el conjunto.")
