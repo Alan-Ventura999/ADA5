@@ -1,0 +1,14 @@
+lista = [1, 2, 3, 4, 5, 6, 3]
+
+elementos_vistos = set()
+duplicado_encontrado = False
+
+for numero in lista:
+    if numero in elementos_vistos:
+        print(f"Duplicado encontrado: {numero}")
+        duplicado_encontrado = True
+        break
+    elementos_vistos.add(numero)
+
+if not duplicado_encontrado:
+    print("No se encontraron duplicados en la lista.")
